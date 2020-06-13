@@ -26,6 +26,9 @@ colorscheme nord
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'wakatime/vim-wakatime'
 Plugin 'jiangmiao/auto-pairs'
+Plugin 'miyakogi/conoline.vim'
+Plugin 'arcticicestudio/nord-vim'
+" Plugin 'sheerun/vim-polyglot'
 
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
@@ -58,5 +61,6 @@ filetype plugin indent on    " required
 "
 " see :h vundle for more details or wiki for FAQ
 
-
+let g:conoline_use_colorscheme_default_normal=1
+let g:conoline_use_colorscheme_default_insert=1
 
