@@ -28,7 +28,10 @@ Plugin 'wakatime/vim-wakatime'
 Plugin 'jiangmiao/auto-pairs'
 Plugin 'miyakogi/conoline.vim'
 Plugin 'arcticicestudio/nord-vim'
-" Plugin 'sheerun/vim-polyglot'
+Plugin 'ianks/vim-tsx'
+Plugin 'leafgarland/typescript-vim'
+Plugin 'peitalin/vim-jsx-typescript'
+Plugin 'sheerun/vim-polyglot'
 
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
