@@ -12,12 +12,8 @@ set number
 
 " Set file types
 filetype plugin indent on
-" show existing tab with 4 spaces width
-set tabstop=4
-" when indenting with '>', use 4 spaces width
-set shiftwidth=4
-" On pressing tab, insert 4 spaces
-set expandtab
+setlocal shiftwidth=2 softtabstop=2 expandtab
+autocmd BufNewFile,BufRead *.ts setlocal filetype=typescript
 
 " Set colorscheme
 colorscheme nord
@@ -28,9 +24,6 @@ Plugin 'wakatime/vim-wakatime'
 Plugin 'jiangmiao/auto-pairs'
 Plugin 'miyakogi/conoline.vim'
 Plugin 'arcticicestudio/nord-vim'
-Plugin 'ianks/vim-tsx'
-Plugin 'leafgarland/typescript-vim'
-Plugin 'peitalin/vim-jsx-typescript'
 Plugin 'sheerun/vim-polyglot'
 
 " The following are examples of different formats supported.
@@ -67,3 +60,17 @@ filetype plugin indent on    " required
 let g:conoline_use_colorscheme_default_normal=1
 let g:conoline_use_colorscheme_default_insert=1
 
+" dark red
+hi tsxTagName guifg=#E06C75
+hi tsxComponentName guifg=#E06C75
+hi tsxCloseComponentName guifg=#E06C75
+
+" orange
+hi tsxCloseString guifg=#F99575
+hi tsxCloseTag guifg=#F99575
+hi tsxCloseTagName guifg=#F99575
+hi tsxAttributeBraces guifg=#F99575
+hi tsxEqual guifg=#F99575
+
+" yellow
+hi tsxAttrib guifg=#F8BD7F cterm=italic
