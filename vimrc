@@ -20,6 +20,7 @@ colorscheme nord
 
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
+Plugin 'editorconfig/editorconfig-vim'
 Plugin 'wakatime/vim-wakatime'
 Plugin 'jiangmiao/auto-pairs'
 Plugin 'miyakogi/conoline.vim'
