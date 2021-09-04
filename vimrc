@@ -16,7 +16,7 @@ setlocal shiftwidth=2 softtabstop=2 expandtab
 autocmd BufNewFile,BufRead *.ts setlocal filetype=typescript
 
 " Set colorscheme
-colorscheme nord
+" colorscheme nord
 
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
@@ -26,9 +26,6 @@ Plugin 'jiangmiao/auto-pairs'
 Plugin 'miyakogi/conoline.vim'
 Plugin 'arcticicestudio/nord-vim'
 Plugin 'sheerun/vim-polyglot'
-Plugin 'pangloss/vim-javascript'    " JavaScript support
-Plugin 'leafgarland/typescript-vim' " TypeScript syntax
-Plugin 'maxmellon/vim-jsx-pretty'
 
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
