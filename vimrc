@@ -12,8 +12,12 @@ set number
 
 " Set file types
 filetype plugin indent on
-setlocal shiftwidth=2 softtabstop=2 expandtab
-autocmd BufNewFile,BufRead *.ts setlocal filetype=typescript
+" show existing tab with 4 spaces width
+set tabstop=4
+" when indenting with '>', use 4 spaces width
+set shiftwidth=4
+" On pressing tab, insert 4 spaces
+set expandtab
 
 " Set colorscheme
 " colorscheme nord
